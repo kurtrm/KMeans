@@ -54,4 +54,3 @@ class KMeans:
             arr[assignments == i] = centroid
         diff = arr - X
         return (diff**2).sum()
-            
